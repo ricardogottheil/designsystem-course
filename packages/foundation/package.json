@@ -1,5 +1,6 @@
 {
   "name": "@newline-ds/foundation",
+  "version": "0.0.1",
   "packageManager": "yarn@3.5.0",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -9,6 +10,7 @@
   },
   "scripts": {
     "build-tokens": "style-dictionary build --config sd.config.js",
-    "build": "yarn build-tokens && tsc"
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck"
   }
 }
