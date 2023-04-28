@@ -27,6 +27,9 @@
   },
   "scripts": {
     "storybook": "NODE_OPTIONS='--openssl-legacy-provider' start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  }
+    "build-storybook": "NODE_OPTIONS='--openssl-legacy-provider' build-storybook",
+    "chromatic": "npx chromatic --project-token=9047c3dc5dd2"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@newline-ds/storybook@0.0.1"
 }
